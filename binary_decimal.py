@@ -12,6 +12,6 @@ def binary_decimal():
         
         decimal = decimal + int(digit) * 2**exponent
         exponent -= 1
-    print(decimal)
+    print(f'The binary digits of {bit_string} is equivalent to decimal digit of {decimal}')
 
 binary_decimal()
