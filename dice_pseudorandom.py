@@ -1,6 +1,6 @@
 '''This is a program that rolls a dice a specified number of times
 to get a predictable result.
-Author: Ndubuisi Asogwa  Date: 02/02/2022
+Author: Ndubuisi  Date: 02/02/2022
 '''
 import random
 

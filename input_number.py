@@ -1,6 +1,6 @@
 ''' A program that request two decimal place number
 from users, muiltiplies them and return the result to the user.
-written by: Ndubuisi Asogwa 01/24/22
+written by: Ndubuisi 01/24/22
 '''
 def muiltiply_number():
 # Muiltiplies any two floating numbers

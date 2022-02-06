@@ -1,6 +1,6 @@
 '''This program calculate the total cost of a meal in a restarant
 adding the meal cost, sales tax and tips together
-author: Ndubuisi Asogwa, date:01/30/22
+author: Ndubuisi, date:01/30/22
 '''
 
 def total_cost_meal():

@@ -1,6 +1,6 @@
 '''This program convert celcius temperature to its equivalent
 in fahrenheit.
-author: Ndubuisi Asogwa, Date: 01/30/22
+author: Ndubuisi, Date: 01/30/22
 '''
 def convert_celcius_fahrenheit():
 # Requsting user to enter a temperature in celcius for convertion to fahrenheit
