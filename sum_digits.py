@@ -4,11 +4,13 @@
 '''
 
 # summation of a series of numbers
-sum = 0
-string_digits = input('Enter a series of digits: ')
-if string_digits.isdigit():
-    for digit in string_digits:
-        sum = sum + int(digit)
-    print(f'The total sum of the digits is {sum}')
-else:
-    print("Error, enter a digits number: ")
+def main():
+    sum = 0
+    string_digits = input('Enter a series of digits: ')
+    if string_digits.isdigit():
+        for digit in string_digits:
+            sum = sum + int(digit)
+        print(f'The total sum of the digits is {sum}')
+    else:
+        print("Error, enter a digits number: ")
+main()
