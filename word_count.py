@@ -4,7 +4,7 @@
 '''
 # Analysis of words from a file
 def main():
-    text_file = open('cleantext.txt', 'r')
+    text_file = open('./texts/cleantext.txt', 'r')
     text = text_file.read()
     text_file.close()
     print(f'The lenght of the string is {len(text)}')
@@ -17,7 +17,7 @@ def main():
     list_words.sort()
     ist_word = list_words[0]
     counter = 1
-    for i in range(1, len(list_words), 1):
+    for i in range(1, len(list_words), ):
         
         if (ist_word == list_words[i]):
             counter +=1

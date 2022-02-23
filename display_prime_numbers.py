@@ -16,6 +16,7 @@ def prime(x, y):
             else:
                 prime_list.append(i)
     return prime_list
+    
 
 # list range of numbers from 2 upwards
 def check_prime():
@@ -25,11 +26,11 @@ def check_prime():
         if num > 1:
             print('The list of prime numbers:')
             list_numbers = list(range(2, num +1))
-            for nu in list_numbers:
+            for no in list_numbers:
 # verify if the list of numbers are a prime or not
-                if nu in prime(2, num):
+                if no in prime(2, num):
                     
-                    print(nu, end=', ')
+                    print(no, end=', ')
         else:
             print('Error, enter a positive number greater than one')
     else:
