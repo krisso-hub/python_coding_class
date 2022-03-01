@@ -1,7 +1,7 @@
 
 ''' A program that calculate grade from input score
     on a ten point scale and print the grade score to student 
-    indicating a grade of A or B or C or D or F by Ndubuisi
+    indicating a grade of A or B or C or D or F by Ndubuisi78
 '''
 def main():
     another = 'Y' # declare and initialize a variable
